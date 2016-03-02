@@ -73,7 +73,7 @@ are met:
 
 > __NOTE:__ All public endpoint records should point to the IP of `loadbalance[0]`
 
-### Server lookup:
+### Server endpoints:
 | Record                         | Required | Example
 | ------------------------------ | -------- | ------------------------
 | `app[n].{{base_fqdn}}`         | Yes      | app0.example.com
@@ -84,7 +84,7 @@ are met:
 | `logpipe[n].{{base_fqdn}}`     | Yes      | logpipe0.example.com
 | `logsearch[n].{{base_fqdn}}`   | Yes      | logsearch0.example.com
 
-> __NOTE:__ All server lookup records should point to the IP of the server the record refers to
+> __NOTE:__ All server endpoint records should point to the IP of the server the record refers to
 
 ## Certificate Requirements
 TLS/SSL certificates are required to protect all [public endpoints](#public-endpoints). This can be
