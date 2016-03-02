@@ -4,7 +4,6 @@
 [![branching](http://img.shields.io/badge/branching-github%20flow-blue.svg)](https://guides.github.com/introduction/flow/)
 [![license](http://img.shields.io/badge/license-apache-blue.svg)](LICENSE.md)
 [![pm](http://img.shields.io/badge/pm-zenhub-blue.svg)](https://www.zenhub.io)
-[![chat](http://img.shields.io/badge/chat-slack-blue.svg)](https://ce-success.herokuapp.com)
 [![circleci](https://circleci.com/gh/cloud-elements/hykes-docs.svg?style=shield)](https://circleci.com/gh/cloud-elements/hykes-docs)
 
 ## Table of Contents
