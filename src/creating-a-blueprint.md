@@ -33,8 +33,6 @@ simple lifecycle which has global and per role phases. Each has:
 
 * Pre/post hook blocks, in which any Bash commands can be specified and will be executed when
 building
-* Build variable block, in which variables you define will be made available during the build
-process
 * Environment variable block, in which variables you define will be made available on all servers
 belonging to that role as environment variables that persist through restarts
 
