@@ -20,7 +20,7 @@ $ cd /path/to/blueprint
 This command pulls the current [hykes-spec](https://github.com/cloud-elements/hykes-spec) into the
 specified directory. You can then configure the blueprint to your own needs.
 
-## Configuring <sub><sup>(Estimated time: 10 to 120 minutes)</sup></sub>
+## Configuring <sub><sup>(Estimated time: 10 to 720 minutes)</sup></sub>
 With the stubbed blueprint now on our local filesystem, we make make tweaks to it for our own cloud.
 
 ### Inventory:
