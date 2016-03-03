@@ -8,4 +8,15 @@
 
 ## Table of Contents
 
-1. [Requirements](src/requirements.md)
+1. Overview
+2. [Cloud Requirements](src/cloud-requirements.md)
+3. Client Requirements
+4. Guides
+  1. Building a cloud
+    1. Satisfying the cloud requirements
+    2. Installing the CLIs to act against the cloud
+    3. Creating a blueprint to describe the cloud
+    4. Running the CLIs to build the cloud
+    5. Wrapping up
+  2. Using the config system to customize a cloud
+  3. Update a cloud with a new version of Soba
