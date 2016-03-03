@@ -10,8 +10,8 @@
   |-- 1x database (2 vCPU, 8GB RAM, 64GB SSD)
   |-- 1x eib (1 vCPU, 2GB RAM, 32GB SSD)
   |-- 1x loadbalance (1 vCPU, 1GB RAM, 32GB HDD)
+  |-- 1x logstore (1 vCPU, 4GB RAM, 96GB HDD)
   |-- 1x logpipe (1 vCPU, 2GB RAM, 32GB HDD)
-  |-- 1x logsearch (1 vCPU, 4GB RAM, 64GB HDD)
 ```
 
 ### Recommended:
@@ -22,8 +22,8 @@
   |-- 2x database (4 vCPU, 16GB RAM, 96GB SSD)
   |-- 2x eib (1 vCPU, 4GB RAM, 64GB SSD)
   |-- 2x loadbalance (1 vCPU, 2GB RAM, 64GB SSD)
+  |-- 3x logstore (2 vCPU, 8GB RAM, 96GB SSD)
   |-- 2x logpipe (2 vCPU, 4GB RAM, 32GB SSD)
-  |-- 3x logsearch (2 vCPU, 8GB RAM, 96GB SSD)
 ```
 
 ### Consolidation:
@@ -60,8 +60,8 @@ are met:
   |-- database (5432 open to app/database)
   |-- eib (2181/9092 open to app/eib)
   |-- loadbalance (80/443 open to public, 81 open to app/loadbalance)
+  |-- logstore (9200/9300 open to logpipe/logstore/loadbalance)
   |-- logpipe (none)
-  |-- logsearch (9200/9300 open to logpipe/logsearch/loadbalance)
 ```
 
 ## DNS Requirements
@@ -83,8 +83,8 @@ are met:
 | `database[n].{{base_fqdn}}`    | Yes      | database0.example.com
 | `eib[n].{{base_fqdn}}`         | Yes      | eib0.example.com
 | `loadbalance[n].{{base_fqdn}}` | Yes      | loadbalance0.example.com
+| `logstore[n].{{base_fqdn}}`    | Yes      | logstore0.example.com
 | `logpipe[n].{{base_fqdn}}`     | Yes      | logpipe0.example.com
-| `logsearch[n].{{base_fqdn}}`   | Yes      | logsearch0.example.com
 
 > __NOTE:__ All server endpoint records should point to the IP of the server the record refers to
 
