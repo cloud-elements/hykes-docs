@@ -1,4 +1,4 @@
-# Creating a Blueprint
+# Describing the Cloud
 
 This page will show you how to use the stubbing feature of `hykes-blueprint`, which you can
 then configure for use with your own cloud.
