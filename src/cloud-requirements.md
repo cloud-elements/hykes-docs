@@ -1,8 +1,4 @@
-## OS Requirements
-All servers are assumed to have Ubuntu 14.04, CentOS 7, or RHEL 7 installed. Additionally, it is
-expected that a static IP be assigned, desired hostname configured, and at least one non-root admin
-account to perform all operations. A single virtual IP is needed for a high-availability load
-balancer setup.
+# Cloud Requirements
 
 ## Hardware Requirements
 
@@ -44,6 +40,12 @@ single servers (which can still scale horizontally).
 ```
 |-- 3x all (16 vCPU, 64GB RAM, 512GB SSD)
 ```
+
+## OS Requirements
+All servers are assumed to have Ubuntu 14.04, CentOS 7, or RHEL 7 installed. Additionally, it is
+expected that a static IP be assigned, desired hostname configured, and at least one non-root admin
+account to perform all operations. A single virtual IP is needed for a high-availability load
+balancer setup.
 
 ## Firewall Requirements
 Software firewalls (i.e. iptables) are used to provide baseline protection. Hardware firewalls
