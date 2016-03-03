@@ -1,4 +1,4 @@
-# Installing the CLIs <sub><sup>(Estimated time: 2 to 40 minutes)</sup></sub>
+# Installing the CLIs
 
 This page will show you how to install the Hykes CLIs on your local system. These CLIs make up the
 core foundation of the Hykes solution which, combined together, will allow you to get a Cloud
