@@ -39,7 +39,7 @@ belonging to that role as environment variables that persist through restarts
 ### Configuration system filesystem:
 In addition to the configuration system config, root level directories that match up to one of the
 lifecycle phases will have their contents copied over to the matching servers at the root level.
-So, if you created a `app/tmp/hello-world.txt` file in the blueprint, you would see
-`/tmp/hello-world.txt` after building. Combined together, this makes for an extremely easy and
-flexible way to make customizations to your own cloud. In fact, this is how TLS certificates are
-provided (via conventions).
+So, if you created `app/tmp/hello-world.txt` in the blueprint, you would see
+`/tmp/hello-world.txt`, after building, on the server. Combined together, this makes for an
+extremely easy and flexible way to make customizations to your own cloud. In fact, this is how TLS
+certificates are provided (via conventions).
