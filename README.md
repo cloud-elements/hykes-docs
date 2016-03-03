@@ -13,8 +13,8 @@
 3. Client Requirements
 4. Guides
   1. Building a cloud
-    1. [Installing the CLIs](src/installing-the-clis): A toolkit to quickly and easily act against a cloud
-    2. [Creating a blueprint](src/creating-a-blueprint): A declarative way to describe a cloud
+    1. [Installing the CLIs](src/installing-the-clis.md): A toolkit to quickly and easily act against a cloud
+    2. [Creating a blueprint](src/creating-a-blueprint.md): A declarative way to describe a cloud
     3. [Satisfying cloud requirements](src/satisfying-cloud-requirements.md): Laying your cloud foundation
     4. [Running the CLIs](src/running-the-clis.md): Putting it all together
   2. Using the config system to customize a cloud
