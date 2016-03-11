@@ -1,9 +1,8 @@
 # Installing the CLIs
 
-This page will show you how to install the Hykes CLIs on your local system. These CLIs make up the
-core foundation of the Hykes solution which, combined together, will allow you to get a Cloud
-Elements cloud up and running quickly and easily. The guide currently assumes you are running the
-most recent version of OS X.
+This page will show you how to install the Hykes CLIs on your local system. These CLIs make up a
+toolbelt which, combined together, will allow you to get a Cloud Elements cloud up and running
+quickly and easily. The guide currently assumes you are running the most recent version of OS X.
 
 When you finish, you will have the Hykes CLIs installed on your local system and can then proceed
 to the next page of the guide.
