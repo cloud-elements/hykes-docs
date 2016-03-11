@@ -17,19 +17,19 @@ $ hykes-blueprint stub /path/to/blueprint
 $ cd /path/to/blueprint
 ```
 
-This command pulls the current [hykes-spec](https://github.com/cloud-elements/hykes-spec) into the
-specified directory. You can then configure the blueprint to your own needs.
+This command pulls the current [hykes-spec](https://git.io/vaGGL) into the specified directory. You
+can then configure the blueprint to your own needs.
 
 ## Configuring <sub><sup>(Estimated time: 10 to 720 minutes)</sup></sub>
 With the stubbed blueprint now on our local filesystem, we make make tweaks to it for our own cloud.
 
 ### Inventory:
-The [hykes.ini](https://github.com/cloud-elements/hykes-spec/blob/master/hykes.ini) file serves as
-a simple description of the quantity of servers which make up each role in your cloud.
+The [hykes.ini](https://git.io/vaGGm) file serves as a simple description of the quantity of
+servers which make up each role in your cloud.
 
 ### Configuration system config:
-The [hykes.yml](https://github.com/cloud-elements/hykes-spec/blob/master/hykes.yml) file exposes a
-simple lifecycle which has global and per role phases. Each has:
+The [hykes.yml](https://git.io/vaGGn) file exposes a simple lifecycle which has global and per role
+phases. Each has:
 
 * Pre/post hook blocks, in which any Bash commands can be specified and will be executed when
 building

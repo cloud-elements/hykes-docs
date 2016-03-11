@@ -10,14 +10,12 @@ to the next page of the guide.
 ## Homebrew <sub><sup>(Estimated time: 0 to 30 minutes)</sup></sub>
 Hykes makes use of Homebrew taps. Homebrew is the missing package manager for OS X. Leveraging the
 Hykes Homebrew tap will allow you to install the Hykes CLIs with minimal effort. If you do not
-already have it installed, proceed to the
-[Homebrew project documentation](https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Installation.md)
+already have it installed, proceed to the [Homebrew project documentation](https://git.io/vaGsy)
 and follow the installation instructions, ensuring that you also satisfy the requirements.
 
 ## Tapping <sub><sup>(Estimated time: 1 to 5 minutes)</sup></sub>
 As mentioned, Hykes makes use of Homebrew taps to ease installation of the Hykes CLIs. What wasn't
-mentioned is that this is an
-[open source project](https://github.com/cloud-elements/homebrew-hykes), which you can freely
+mentioned is that this is an [open source project](https://git.io/vaGsF), which you can freely
 inspect, follow along with, or contribute to. To tap, simply:
 
 ```bash
