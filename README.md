@@ -13,9 +13,9 @@
 3. Client Requirements
 4. Guides
   1. Building a cloud
-    1. [Installing the CLIs](src/installing-the-clis.md): A toolkit to quickly and easily act against a cloud
-    2. [Describing the cloud](src/describing-the-cloud.md): Using Hykes blueprints to describe your cloud
+    1. [Installing the CLIs](src/installing-the-clis.md): A toolbelt for all things Hykes
+    2. [Describing the cloud](src/describing-the-cloud.md): Using a blueprint to describe your cloud
     3. [Provisioning the cloud](src/provisioning-the-cloud.md): Laying your cloud foundation
     4. [Building the cloud](src/building-the-cloud.md): Putting it all together
   2. Using the config system to customize a cloud
-  3. Updating a cloud with a new version of Soba
+  3. Updating a cloud with a new version of Elements
