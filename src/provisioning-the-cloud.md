@@ -14,10 +14,10 @@ account to perform all tasks.
   |-- 1x app (2 vCPU, 8GB RAM, 32GB HDD)
   |-- 1x cache (1 vCPU, 4GB RAM, 32GB HDD)
   |-- 1x database (2 vCPU, 8GB RAM, 64GB SSD)
-  |-- 1x eib (1 vCPU, 2GB RAM, 32GB SSD)
   |-- 1x loadbalance (1 vCPU, 1GB RAM, 32GB HDD)
   |-- 1x logstore (1 vCPU, 4GB RAM, 96GB HDD)
   |-- 1x logpipe (1 vCPU, 2GB RAM, 32GB HDD)
+  |-- 1x message (1 vCPU, 2GB RAM, 32GB SSD)
 ```
 
 ### Recommended:
@@ -26,10 +26,10 @@ account to perform all tasks.
   |-- 3x app (4 vCPU, 8GB RAM, 64GB SSD)
   |-- 2x cache (1 vCPU, 4GB RAM, 64GB SSD)
   |-- 2x database (4 vCPU, 16GB RAM, 96GB SSD)
-  |-- 2x eib (1 vCPU, 4GB RAM, 64GB SSD)
   |-- 2x loadbalance (1 vCPU, 2GB RAM, 64GB SSD)
   |-- 3x logstore (2 vCPU, 8GB RAM, 96GB SSD)
   |-- 2x logpipe (2 vCPU, 4GB RAM, 32GB SSD)
+  |-- 2x message (1 vCPU, 4GB RAM, 64GB SSD)
 ```
 
 ### Consolidation:
@@ -64,10 +64,10 @@ single servers (which can still scale horizontally).
 | `app[n].{{base_fqdn}}`         | Yes      | app0.example.com
 | `cache[n].{{base_fqdn}}`       | Yes      | cache0.example.com
 | `database[n].{{base_fqdn}}`    | Yes      | database0.example.com
-| `eib[n].{{base_fqdn}}`         | Yes      | eib0.example.com
 | `loadbalance[n].{{base_fqdn}}` | Yes      | loadbalance0.example.com
 | `logstore[n].{{base_fqdn}}`    | Yes      | logstore0.example.com
 | `logpipe[n].{{base_fqdn}}`     | Yes      | logpipe0.example.com
+| `message[n].{{base_fqdn}}`     | Yes      | message0.example.com
 
 > __NOTE:__ All server endpoint records should point to the IP of the server the record refers to
 
